@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="England">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"; content="IE=edge">
+    <meta name="viewport"; content="width=device-width"; initial-scale="1.0">
+
+    <title>CA3 Technical Task</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+
+    <article>
+        <a href="#b">Link Using Body Tag</a></article>
+         <a href="#b">Default Link Color> --base-font-color</a>
+        </br>;
+        <a href="#b" style="color: magenta;"> Changed link Color</a>
+        </br>;
+        <a href="#b" styles="color: orange;"> Changed Link Color on Hover </a>
+    </article>
+
+    <style>
+      :root {
+        --base-font-color: rgb(119, 136, 153);
+        --secondary-font-color: rgb(105, 105, 105);
+        --emphasised-font: rgb(88, 110, 117);
+        background-color: rgb(0, 43, 54);
+        --c-background-color: rgb(0, 43, 54);
+        --c-background-highlights: rgb(7, 54, 66);
+
+        --c-yellow: rgb(181,137,  0);
+        --c-orange: rgb(203, 75, 22);
+        --c-red: rgb(220, 50, 47);
+        --c-magenta: rgb(211, 54,130);
+        --c-violet: rgb(108,113,196);
+        --c-blue: rgb(38,139,210);
+        --c-darkblue: rgb(0,0,139);
+        --c-cyan: rgb(42,161,152);
+        --c-green: rgb(133,153,0);
+        max-width: 800px;
+      }
+      header {
+        --base-font-color: lightgrey;
+        background-color: lightslategray;
+        --c-background-highlights:darkblue;
+        text-align: center;
+        font-size: 150%;
+        color:rgb(181,137,0);
+      }
+      nav{
+        text-align: center;
+      }
+      ul {
+        list-style: none; 
+      }
+      main {
+        color: lightgray;
+        background-color: rgb(0, 43, 54);
+      }
+        footer {
+            color: lightgray;
+            background-color: lightslategrey;
+            --c-background-highlights: darkblue;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <!-- Here is our main header that is used across all the pages of our website -->
+
+    <header>
+      <h1>Header</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our team</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+       <!-- A Search form is another common non-linear way to navigate through a website. -->
+
+       <form>
+         <input type="search" name="q" placeholder="Search query">
+         <input type="submit" value="Go!">
+       </form>
+     </nav>
+
+    <!-- Here is our page's main content -->
+    <main>
+
+      <!-- It contains an article -->
+      <article>
+        <h2>Article heading</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+
+        <h3>Subsection</h3>
+
+        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+
+        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+
+        <h3>Another subsection</h3>
+
+        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+
+        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+        </article>
+
+      <!-- the aside content can also be nested within the main content -->
+      <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+      </aside>
+
+    </main>
+
+    <!-- And here is our main footer that is used across all the pages of our website -->
+
+    <footer>
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
+
+  </body>
+</html>
