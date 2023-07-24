@@ -1,0 +1,21 @@
+.CSS
+span.ts *{
+    cursor: pointer;
+    font-size: 9cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p > span.ts {
+    background-color: rgb(250, 250, 210);
+    font-display: solid;
+    /*A reference to a type*/
+    span.ts span.type-ref {
+        color: magenta;  !important
+    }
+  }
+
+    /* Signature details */
+    div.signature > table {
+        border-collapse: collapse;
+        border: thin darkgray solid;
+        width: 60%;
+    }
